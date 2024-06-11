@@ -2,13 +2,13 @@
 using namespace std;
 
 int main(){
-    int n,q;cin>>n>>q;
-    vector<int> lst(n);
+    long long n,q;cin>>n>>q;
+    vector<long long> lst(n);
     for (int i = 0; i < n; i++)
     {
         cin>>lst[i];
     }
-    vector<int> prefix(n);
+    vector<long long> prefix(n);
     prefix[0]=lst[0];
     for (int i = 1; i < n; i++)
     {
